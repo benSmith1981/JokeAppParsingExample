@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CPNtLOzMFXL5/Jqc6R+mD2DHtMeFk2U1sEIZW21UXy1ZNZ3PMNDaE9q2b1sVctrG9JJn0bfj1q5xZdBuLGOvZA==",
+  "success": true,
+  "projectFilePath": "/Users/bensmith/Downloads/Jokes/Jokes/Jokes.iOS/Jokes.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/bensmith/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/bensmith/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/bensmith/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

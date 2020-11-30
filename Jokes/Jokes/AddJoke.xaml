@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jokes.AddJoke">
+    <ContentPage.Content>
+        <StackLayout Margin="20,0">
+            <Label Text="Add new joke" HorizontalTextAlignment="Center" Margin="0,50" FontSize="35" />
+            <Editor x:Name="jokeInput" Placeholder="Joke" AutoSize="TextChanges" IsTextPredictionEnabled="True" IsSpellCheckEnabled="True" />
+            <Button Text="Add Joke" Clicked="addButton_Clicked" />
+            
+            <ActivityIndicator x:Name="loadingAddJoke" Margin="0,25,0,0" Color="#2196F3" IsRunning="True" IsVisible="False"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

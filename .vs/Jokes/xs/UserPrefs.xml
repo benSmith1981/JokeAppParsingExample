@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{8F8806F3-5A11-4F6B-A03A-EF1A2D0D3210}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jokes/Jokes/AddJoke.xaml.cs">
+    <Files>
+      <File FileName="Jokes/Jokes/RestService.cs" Line="44" Column="1" />
+      <File FileName="Jokes/Jokes/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/Joke.cs" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/AddJoke.xaml" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/AddJoke.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Jokes" expanded="True">
+            <Node name="Jokes" expanded="True">
+              <Node name="AddJoke.xaml" expanded="True">
+                <Node name="AddJoke.xaml.cs" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="JokePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Jokes.Android PreferredExecutionTarget="Android.Galaxy_Nexus_API_22" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

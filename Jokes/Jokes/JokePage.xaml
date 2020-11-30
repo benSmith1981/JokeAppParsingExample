@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jokes.JokePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="20,0">
+            <Label Text="{Binding jokeText}" HorizontalTextAlignment="Center" HeightRequest="100" FontSize="20"/>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="Rating: " Margin="0,25,0,0" FontSize="18"/>
+                <Picker x:Name="ratingSelect" Title="Rating" Margin="0,12,0,0" WidthRequest="30" HorizontalTextAlignment="Center" SelectedIndexChanged="ratingSelect_SelectedIndexChanged" >
+                    <Picker.Items>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                        <x:String>10</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

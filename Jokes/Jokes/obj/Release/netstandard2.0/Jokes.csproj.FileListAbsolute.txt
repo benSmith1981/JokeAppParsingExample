@@ -1,0 +1,16 @@
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\bin\Release\netstandard2.0\Jokes.deps.json
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\bin\Release\netstandard2.0\Jokes.dll
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\bin\Release\netstandard2.0\ref\Jokes.dll
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\bin\Release\netstandard2.0\Jokes.pdb
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.csprojAssemblyReference.cache
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\AddJoke.xaml.g.cs
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\JokePage.xaml.g.cs
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.AssemblyInfoInputs.cache
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.AssemblyInfo.cs
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.csproj.CoreCompileInputs.cache
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.dll
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\ref\Jokes.dll
+C:\Users\hxz\source\repos\Jokes\Jokes\Jokes\obj\Release\netstandard2.0\Jokes.pdb

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jokes.MainPage"
+             BackgroundColor="#2c3e50"
+             NavigationPage.HasNavigationBar="false">
+
+    <StackLayout>
+        <Frame BackgroundColor="#3498db" Padding="24" CornerRadius="0">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Jokes List" TextColor="#ecf0f1" FontSize="36"/>
+                <Button Text="+" BackgroundColor="#2980b9" WidthRequest="50" HeightRequest="50" CornerRadius="50" FontSize="20" HorizontalOptions="EndAndExpand" Clicked="addButton_Clicked"/>
+            </StackLayout>
+        </Frame>
+
+        <Picker x:Name="sortBy" Title="Sort by" Margin="20, 0" SelectedIndexChanged="sortBy_SelectedIndexChanged">
+            <Picker.Items>
+                <x:String>Oldest</x:String>
+                <x:String>Latest</x:String>
+                <x:String>Rating</x:String>
+            </Picker.Items>
+        </Picker>
+        
+        <ActivityIndicator x:Name="loadingList" Margin="0,25,0,0" Color="#2196F3" IsRunning="True" IsVisible="False"/>
+
+        <ListView x:Name="listJokes" ItemTapped="jokeItem_Tapped" SelectionMode="None" VerticalOptions="FillAndExpand" HasUnevenRows="True" SeparatorVisibility="Default">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Text="{Binding jokeText}" Font="19" TextColor="#ecf0f1" Margin="20, 15"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
