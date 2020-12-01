@@ -38,7 +38,7 @@ namespace Jokes
             if (jokeInput.Text.Trim().Length == 0) return;
 
             string url = "https://studentloginexample.herokuapp.com/api/jokes/";
-            SingleResponse resp = await restService.AddJoke(url, new { jokeText = jokeInput.Text, rating = 1 });
+            SingleResponse resp = await restService.AddJoke(url, new { jokeText = jokeInput.Text, rating = 1, numberOfRatings = 1 });
             newJoke = resp.dataResponse;
         }
     }

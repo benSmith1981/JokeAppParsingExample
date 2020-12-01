@@ -8,7 +8,7 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <Label Text="Rating: " Margin="0,25,0,0" FontSize="18"/>
-                <Picker x:Name="ratingSelect" Title="Rating" Margin="0,12,0,0" WidthRequest="30" HorizontalTextAlignment="Center" SelectedIndexChanged="ratingSelect_SelectedIndexChanged" >
+                <Picker x:Name="ratingSelect" Title="Rating" Margin="0,12,0,0" WidthRequest="100" HorizontalTextAlignment="Center" SelectedIndexChanged="ratingSelect_SelectedIndexChanged" >
                     <Picker.Items>
                         <x:String>1</x:String>
                         <x:String>2</x:String>
@@ -23,6 +23,7 @@
                     </Picker.Items>
                 </Picker>
             </StackLayout>
+            <Button x:Name="submitRating" Text="Submit Rating" Clicked="submitRating_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

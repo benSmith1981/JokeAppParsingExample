@@ -1,33 +1,39 @@
-﻿<Properties StartupConfiguration="{8F8806F3-5A11-4F6B-A03A-EF1A2D0D3210}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Jokes/Jokes/AddJoke.xaml.cs">
+﻿<Properties StartupConfiguration="{BC8BD3A5-2C02-4AEF-8163-6D0A49ABEF14}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jokes/Jokes/MainPage.xaml">
     <Files>
-      <File FileName="Jokes/Jokes/RestService.cs" Line="44" Column="1" />
-      <File FileName="Jokes/Jokes/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Jokes/Jokes/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="Jokes/Jokes/Joke.cs" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/Joke.cs" Line="15" Column="42" />
+      <File FileName="Jokes/Jokes/RestService.cs" Line="60" Column="10" />
+      <File FileName="Jokes/Jokes/MainPage.xaml.cs" Line="54" Column="1" />
+      <File FileName="Jokes/Jokes/MainPage.xaml" Line="36" Column="85" />
       <File FileName="Jokes/Jokes/AddJoke.xaml" Line="1" Column="1" />
-      <File FileName="Jokes/Jokes/AddJoke.xaml.cs" Line="1" Column="1" />
+      <File FileName="Jokes/Jokes/AddJoke.xaml.cs" Line="41" Column="130" />
+      <File FileName="Jokes/Jokes/JokePage.xaml" Line="26" Column="94" />
+      <File FileName="Jokes/Jokes/JokePage.xaml.cs" Line="26" Column="1" />
+      <File FileName="Jokes/Jokes.iOS/Main.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Jokes" expanded="True">
             <Node name="Jokes" expanded="True">
-              <Node name="AddJoke.xaml" expanded="True">
-                <Node name="AddJoke.xaml.cs" selected="True" />
-              </Node>
+              <Node name="AddJoke.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="JokePage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
+            <Node name="Jokes.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Jokes.Android PreferredExecutionTarget="Android.Galaxy_Nexus_API_22" />
+  <MonoDevelop.Ide.ItemProperties.Jokes.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" PreferredExecutionTarget="Android.Galaxy_Nexus_API_22" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.Jokes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.59C45856-DAB2-4972-A9C4-A3541CA99834" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

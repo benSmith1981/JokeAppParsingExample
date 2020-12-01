@@ -33,7 +33,9 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             
-                            <Label Text="{Binding jokeText}" Font="19" TextColor="#ecf0f1" Margin="20, 15"/>
+                            <Label Text="{Binding jokeText}" Font="19" TextColor="#ecf0f1" Margin="20, 25"/>
+                            <Label x:Name="rating" Text="" Font="19" TextColor="#ecf0f1" Margin="20, 15"/>
+
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

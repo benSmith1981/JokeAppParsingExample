@@ -12,12 +12,15 @@ namespace Jokes
         public string jokeText { get; set; }
         [JsonProperty("rating")]
         public int rating { get; set; }
+        [JsonProperty("numberOfRatings")]
+        public int numberOfRatings { get; set; }
 
-        public Joke(string _id, string jokeText, int rating)
+        public Joke(string _id, string jokeText, int rating, int numberOfRatings)
         {
             this._id = _id;
             this.jokeText = jokeText;
             this.rating = rating;
+            this.numberOfRatings = numberOfRatings;
         }
     }
 }
