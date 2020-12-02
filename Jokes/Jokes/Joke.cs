@@ -22,5 +22,14 @@ namespace Jokes
             this.rating = rating;
             this.numberOfRatings = numberOfRatings;
         }
+
+        public string Description
+        {
+            get {
+                numberOfRatings = numberOfRatings == 0 ? 1 : numberOfRatings;
+                int avgRating = rating / numberOfRatings;
+                return $"{jokeText} - Rating: {avgRating}";
+            }
+        }
     }
 }

@@ -23,7 +23,7 @@
         
         <ActivityIndicator x:Name="loadingList" Margin="0,25,0,0" Color="#2196F3" IsRunning="True" IsVisible="False"/>
 
-        <ListView x:Name="listJokes" ItemTapped="jokeItem_Tapped" SelectionMode="None" VerticalOptions="FillAndExpand" HasUnevenRows="True" SeparatorVisibility="Default">
+        <ListView x:Name="listJokes" ItemTapped="jokeItem_Tapped" BackgroundColor="blue"  SelectionMode="None" VerticalOptions="FillAndExpand" HasUnevenRows="True" SeparatorVisibility="Default">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -33,7 +33,7 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
                             
-                            <Label Text="{Binding jokeText}" Font="19" TextColor="#ecf0f1" Margin="20, 25"/>
+                            <Label Text="{Binding Description}" Font="19" TextColor="#ecf0f1" Margin="20, 25"/>
                             <Label x:Name="rating" Text="" Font="19" TextColor="#ecf0f1" Margin="20, 15"/>
 
                         </Grid>
