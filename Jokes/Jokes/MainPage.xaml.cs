@@ -53,7 +53,7 @@ namespace Jokes
             Jokes = new List<Joke>(jokeData.dataResponse);
             latestJokes = new List<Joke>(jokeData.dataResponse);
             latestJokes.Reverse();
-            ratingJokes = new List<Joke>(jokeData.dataResponse).OrderByDescending(j => j.rating).ToList();
+            ratingJokes = new List<Joke>(jokeData.dataResponse).OrderByDescending(j => j.AverageRating).ToList();
         }
 
         async private void addButton_Clicked(object sender, EventArgs e)

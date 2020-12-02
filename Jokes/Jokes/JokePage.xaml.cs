@@ -46,6 +46,11 @@ namespace Jokes
                 rating = (totalJokeRating + (ratingSelect.SelectedIndex + 1)),
                 numberOfRatings = numberOfJokeRatings + 1
             });
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Navigation.PopAsync();
+            });
+
         }
     }
 }

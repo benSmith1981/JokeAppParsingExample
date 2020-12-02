@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{BC8BD3A5-2C02-4AEF-8163-6D0A49ABEF14}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Jokes/Jokes/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jokes/Jokes.iOS/Resources/LaunchScreen.storyboard">
     <Files>
-      <File FileName="Jokes/Jokes/Joke.cs" Line="16" Column="35" />
-      <File FileName="Jokes/Jokes/RestService.cs" />
-      <File FileName="Jokes/Jokes/MainPage.xaml.cs" Line="35" Column="22" />
-      <File FileName="Jokes/Jokes/MainPage.xaml" />
-      <File FileName="Jokes/Jokes/AddJoke.xaml" />
-      <File FileName="Jokes/Jokes/AddJoke.xaml.cs" />
-      <File FileName="Jokes/Jokes/JokePage.xaml" />
-      <File FileName="Jokes/Jokes/JokePage.xaml.cs" />
-      <File FileName="Jokes/Jokes.iOS/Main.cs" />
+      <File FileName="Jokes/Jokes/Joke.cs" Line="35" Column="33" />
+      <File FileName="Jokes/Jokes/RestService.cs" Line="60" Column="10" />
+      <File FileName="Jokes/Jokes/MainPage.xaml.cs" Line="54" Column="1" />
+      <File FileName="Jokes/Jokes/MainPage.xaml" Line="37" Column="16" />
+      <File FileName="Jokes/Jokes/AddJoke.xaml" Line="8" Column="39" />
+      <File FileName="Jokes/Jokes/AddJoke.xaml.cs" Line="29" Column="41" />
+      <File FileName="Jokes/Jokes/JokePage.xaml" Line="6" Column="14" />
+      <File FileName="Jokes/Jokes/JokePage.xaml.cs" Line="25" Column="1" />
+      <File FileName="Jokes/Jokes.iOS/Resources/LaunchScreen.storyboard" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,11 +19,13 @@
               <Node name="AddJoke.xaml" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="JokePage.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Jokes.iOS" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="LaunchScreen.storyboard" selected="True" />
               </Node>
             </Node>
-            <Node name="Jokes.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

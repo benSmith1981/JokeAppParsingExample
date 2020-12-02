@@ -31,5 +31,16 @@ namespace Jokes
                 return $"{jokeText} - Rating: {avgRating}";
             }
         }
+
+        public int AverageRating
+        {
+            get
+            {
+                numberOfRatings = numberOfRatings == 0 ? 1 : numberOfRatings;
+                int avgRating = rating / numberOfRatings;
+                return avgRating;
+            }
+        }
+
     }
 }

@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Jokes.JokePage">
-    <ContentPage.Content>
+             x:Class="Jokes.JokePage"
+             BackgroundColor="Black"
+             Opacity="0.6">
+    <ContentPage.Content >
         <StackLayout VerticalOptions="Center" Margin="20,0">
             <Label Text="{Binding jokeText}" HorizontalTextAlignment="Center" HeightRequest="100" FontSize="20"/>
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Label Text="Rating: " Margin="0,25,0,0" FontSize="18"/>
+                <Label Text="Rating: "  TextColor="White" Margin="0,25,0,0" FontSize="18"/>
                 <Picker x:Name="ratingSelect" Title="Rating" Margin="0,12,0,0" WidthRequest="100" HorizontalTextAlignment="Center" SelectedIndexChanged="ratingSelect_SelectedIndexChanged" >
                     <Picker.Items>
                         <x:String>1</x:String>
@@ -23,7 +25,7 @@
                     </Picker.Items>
                 </Picker>
             </StackLayout>
-            <Button x:Name="submitRating" Text="Submit Rating" Clicked="submitRating_Clicked"/>
+            <Button x:Name="submitRating"  TextColor="White" Text="Submit Rating" Clicked="submitRating_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
